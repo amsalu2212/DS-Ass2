@@ -1,0 +1,11 @@
+# Python 3.12.3).
+# Core: needed to run the notebook (inference_uncertainty.ipynb)
+numpy==2.4.4
+scipy==1.17.1
+pandas==3.0.2
+matplotlib==3.10.8
+# Needed to execute the notebook in the standard way (jupyter nbconvert --execute).
+# NOT pinned: the author did not run these in the build sandbox. After running, add the versions shown by `pip list`.
+jupyter notebook 
+nbconvert
+ipykernel

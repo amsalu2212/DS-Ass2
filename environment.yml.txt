@@ -1,0 +1,16 @@
+name: a2-inference-uncertainty
+channels:
+  - google colab
+dependencies:
+  - python=3.12
+  - pip
+  - pip:
+      # Versions used for the stored results (frozen). pip is used so the exact versions that produced the results are installed.
+      - numpy==2.4.4
+      - scipy==1.17.1
+      - pandas==3.0.2
+      - matplotlib==3.10.8
+# Needed only to rebuild the PDF report (Data_Sciences_Assignment2/DATA SCIENCE-Assignment2_REPORTS):
+      - pillow
+      # Needed to execute the notebook in the standard way (NOT pinned or tested by the author; pin after you run it):
+      - jupyter

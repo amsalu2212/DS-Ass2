@@ -1,0 +1,7 @@
+======== # AI use and verification log=======
+-I used an AI assistant (Deepseek and Claude) was used for reviewing the assignment brief, designing
+ the study, to help and correcting the code in a sandbox, and to draft and analysis drafting this report. 
+-The checks in Table 5 were written and run by the same system and therefore are not independent of the AI.
+-Errors found on review (a mis-stated power value in the first draft, and a first illustrative
+ dataset that did not demonstrate a changed conclusion) were corrected and logged. 
+-The accepted and rejected advice and the author’s own independent verification are documented in
